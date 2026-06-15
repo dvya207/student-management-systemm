@@ -1,0 +1,27 @@
+# Frontend
+/student-frontend/node_modules/
+/student-frontend/dist/
+/student-frontend/.env.local
+/student-frontend/.env.development.local
+/student-frontend/.env.test.local
+/student-frontend/.env.production.local
+/student-frontend/npm-debug.log*
+/student-frontend/yarn-debug.log*
+/student-frontend/yarn-error.log*
+
+# Backend (demo)
+/demo/target/
+/demo/.mvn/wrapper/maven-wrapper.jar
+/demo/.apt_generated
+/demo/.classpath
+/demo/.factorypath
+/demo/.project
+/demo/.settings
+/demo/.springBeans
+/demo/.sts4-cache
+/demo/.idea/
+/demo/*.iws
+/demo/*.iml
+/demo/*.ipr
+/demo/build/
+/demo/.vscode/
