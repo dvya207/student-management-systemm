@@ -236,4 +236,4 @@ Through this project, I gained hands-on experience in:
 ## Author
 
 **Divya Jain**
-Aspiring Java Full Stack Developer passionate about building scalable and user-friendly web applications.
+
