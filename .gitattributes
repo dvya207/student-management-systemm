@@ -1,0 +1,6 @@
+# Exclude frontend files from GitHub language statistics to highlight Java
+student-frontend/**/*.js linguist-detectable=false
+student-frontend/**/*.css linguist-detectable=false
+student-frontend/**/*.html linguist-detectable=false
+student-frontend/package-lock.json linguist-generated=true
+package-lock.json linguist-generated=true
