@@ -1,6 +1,5 @@
-# Exclude frontend files from GitHub language statistics to highlight Java
-student-frontend/**/*.js linguist-detectable=false
-student-frontend/**/*.css linguist-detectable=false
-student-frontend/**/*.html linguist-detectable=false
+# Let GitHub naturally detect all languages (Java, JavaScript, HTML, CSS)
+# Ignore package-lock.json and wrapper files from statistics
 student-frontend/package-lock.json linguist-generated=true
-package-lock.json linguist-generated=true
+demo/mvnw linguist-generated=true
+demo/mvnw.cmd linguist-generated=true
