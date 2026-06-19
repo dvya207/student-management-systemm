@@ -17,7 +17,7 @@
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>demo</name>
-    <description>Student Management System</description>
+    <description>demo</description>
 
     <properties>
         <java.version>17</java.version>
