@@ -4,19 +4,22 @@ public class Student {
 
     private int id;
     private String name;
-    private String gradeLevel;
     private String email;
+    private String gradeLevel;
 
+    // Default Constructor
     public Student() {
     }
 
-    public Student(int id, String name, String gradeLevel, String email) {
+    // Parameterized Constructor
+    public Student(int id, String name, String email, String gradeLevel) {
         this.id = id;
         this.name = name;
-        this.gradeLevel = gradeLevel;
         this.email = email;
+        this.gradeLevel = gradeLevel;
     }
 
+    // Getter and Setter for id
     public int getId() {
         return id;
     }
@@ -25,6 +28,7 @@ public class Student {
         this.id = id;
     }
 
+    // Getter and Setter for name
     public String getName() {
         return name;
     }
@@ -33,19 +37,21 @@ public class Student {
         this.name = name;
     }
 
-    public String getGradeLevel() {
-        return gradeLevel;
-    }
-
-    public void setGradeLevel(String gradeLevel) {
-        this.gradeLevel = gradeLevel;
-    }
-
+    // Getter and Setter for email
     public String getEmail() {
         return email;
     }
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    // Getter and Setter for gradeLevel
+    public String getGradeLevel() {
+        return gradeLevel;
+    }
+
+    public void setGradeLevel(String gradeLevel) {
+        this.gradeLevel = gradeLevel;
     }
 }
