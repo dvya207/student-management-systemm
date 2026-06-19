@@ -38,8 +38,8 @@ public class StudentRepository {
                 new Student(
                         rs.getInt("id"),
                         rs.getString("name"),
-                        rs.getString("grade_level"),
-                        rs.getString("email")
+                        rs.getString("email"),
+                        rs.getString("grade_level")
                 ));
     }
 
@@ -53,8 +53,8 @@ public class StudentRepository {
                 (rs, rowNum) -> new Student(
                         rs.getInt("id"),
                         rs.getString("name"),
-                        rs.getString("grade_level"),
-                        rs.getString("email")
+                        rs.getString("email"),
+                        rs.getString("grade_level")
                 ),
                 id
         );
